@@ -85,12 +85,7 @@ app.get('/', function (req, res) {
 
 });
 
-if (process.env.PORT) {
-	const PORT = process.env.PORT;
-}
-else{
-	PORT = 3000;
-}
+const PORT = process.env.PORT;
 
 app.listen(PORT, function () { 
   console.log('Example app listening on port 3000!');
