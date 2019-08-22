@@ -2,7 +2,6 @@
 var express = require('express');
 
 var app = express();
-app.use(bodyParser.json());
 
 const JSEncrypt = require('node-jsencrypt');
 
