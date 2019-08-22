@@ -1,0 +1,27 @@
+{
+  "name": "wirecardmoipnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moip-sdk-js": "^2.1.1",
+    "node-jsencrypt": "^1.0.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umtalderafael/wirecardMoipNodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umtalderafael/wirecardMoipNodeJs/issues"
+  },
+  "homepage": "https://github.com/umtalderafael/wirecardMoipNodeJs#readme"
+}
